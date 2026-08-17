@@ -1,0 +1,50 @@
+date,time,borough,weather,road_condition,severity,contributing_factor,latitude,longitude,hour,time_period
+2026-01-03,1900-01-01 08:15:00,Manhattan,Clear,Dry,Minor,Distracted Driving,40.758,-73.9855,8,Morning
+2026-01-05,1900-01-01 17:40:00,Brooklyn,Cloudy,Dry,Major,Following Too Closely,40.6782,-73.9442,17,Afternoon
+2026-01-08,1900-01-01 22:10:00,Queens,Rain,Wet,Minor,Unsafe Speed,40.7282,-73.7949,22,Evening
+2026-01-11,1900-01-01 13:25:00,Bronx,Clear,Dry,Major,Failure to Yield,40.8448,-73.8648,13,Afternoon
+2026-01-14,1900-01-01 07:50:00,Brooklyn,Rain,Wet,Major,Distracted Driving,40.6501,-73.9496,7,Morning
+2026-01-17,1900-01-01 19:30:00,Manhattan,Clear,Dry,Minor,Following Too Closely,40.7306,-73.9866,19,Evening
+2026-01-20,1900-01-01 23:45:00,Queens,Fog,Wet,Major,Unsafe Speed,40.7421,-73.7694,23,Evening
+2026-01-23,1900-01-01 10:20:00,Staten Island,Clear,Dry,Minor,Failure to Yield,40.5795,-74.1502,10,Morning
+2026-01-26,1900-01-01 16:05:00,Bronx,Cloudy,Dry,Minor,Distracted Driving,40.837,-73.8654,16,Afternoon
+2026-01-29,1900-01-01 18:15:00,Brooklyn,Rain,Wet,Major,Unsafe Speed,40.6928,-73.9903,18,Evening
+2026-02-02,1900-01-01 09:10:00,Manhattan,Clear,Dry,Minor,Following Too Closely,40.7484,-73.9857,9,Morning
+2026-02-05,1900-01-01 14:35:00,Queens,Cloudy,Dry,Minor,Failure to Yield,40.7135,-73.8283,14,Afternoon
+2026-02-08,1900-01-01 20:20:00,Bronx,Rain,Wet,Major,Unsafe Speed,40.816,-73.8974,20,Evening
+2026-02-11,1900-01-01 06:45:00,Brooklyn,Clear,Dry,Minor,Distracted Driving,40.6719,-73.9442,6,Morning
+2026-02-14,1900-01-01 17:25:00,Manhattan,Cloudy,Dry,Major,Failure to Yield,40.7614,-73.9776,17,Afternoon
+2026-02-17,1900-01-01 21:40:00,Queens,Rain,Wet,Major,Following Too Closely,40.7357,-73.8772,21,Evening
+2026-02-20,1900-01-01 11:55:00,Staten Island,Clear,Dry,Minor,Unsafe Speed,40.6082,-74.1448,11,Morning
+2026-02-23,1900-01-01 15:10:00,Bronx,Clear,Dry,Minor,Distracted Driving,40.8506,-73.8769,15,Afternoon
+2026-02-26,1900-01-01 18:50:00,Brooklyn,Fog,Wet,Major,Unsafe Speed,40.6506,-73.9496,18,Evening
+2026-03-02,1900-01-01 08:40:00,Manhattan,Rain,Wet,Major,Failure to Yield,40.7411,-73.9897,8,Morning
+2026-03-05,1900-01-01 12:30:00,Queens,Clear,Dry,Minor,Following Too Closely,40.7587,-73.83,12,Afternoon
+2026-03-08,1900-01-01 19:05:00,Bronx,Cloudy,Dry,Minor,Distracted Driving,40.8296,-73.9242,19,Evening
+2026-03-11,1900-01-01 22:35:00,Brooklyn,Rain,Wet,Major,Unsafe Speed,40.6782,-73.9442,22,Evening
+2026-03-14,1900-01-01 07:15:00,Manhattan,Clear,Dry,Minor,Failure to Yield,40.7527,-73.9772,7,Morning
+2026-03-17,1900-01-01 16:45:00,Queens,Cloudy,Dry,Major,Distracted Driving,40.7282,-73.7949,16,Afternoon
+2026-03-20,1900-01-01 20:55:00,Staten Island,Rain,Wet,Minor,Following Too Closely,40.5795,-74.1502,20,Evening
+2026-03-23,1900-01-01 10:05:00,Bronx,Clear,Dry,Minor,Unsafe Speed,40.8448,-73.8648,10,Morning
+2026-03-26,1900-01-01 17:35:00,Brooklyn,Rain,Wet,Major,Failure to Yield,40.6892,-73.9857,17,Afternoon
+2026-03-29,1900-01-01 23:20:00,Manhattan,Fog,Wet,Major,Distracted Driving,40.7306,-73.9866,23,Evening
+2026-04-02,1900-01-01 09:35:00,Queens,Clear,Dry,Minor,Following Too Closely,40.7421,-73.7694,9,Morning
+2026-04-05,1900-01-01 14:20:00,Bronx,Cloudy,Dry,Major,Unsafe Speed,40.837,-73.8654,14,Afternoon
+2026-04-08,1900-01-01 18:05:00,Brooklyn,Rain,Wet,Minor,Distracted Driving,40.6501,-73.9496,18,Evening
+2026-04-11,1900-01-01 21:15:00,Manhattan,Clear,Dry,Major,Failure to Yield,40.758,-73.9855,21,Evening
+2026-04-14,1900-01-01 07:35:00,Queens,Rain,Wet,Minor,Unsafe Speed,40.7135,-73.8283,7,Morning
+2026-04-17,1900-01-01 13:50:00,Staten Island,Clear,Dry,Minor,Following Too Closely,40.6082,-74.1448,13,Afternoon
+2026-04-20,1900-01-01 16:30:00,Bronx,Cloudy,Dry,Major,Distracted Driving,40.816,-73.8974,16,Afternoon
+2026-04-23,1900-01-01 19:45:00,Brooklyn,Rain,Wet,Major,Failure to Yield,40.6928,-73.9903,19,Evening
+2026-04-26,1900-01-01 22:05:00,Manhattan,Fog,Wet,Minor,Unsafe Speed,40.7484,-73.9857,22,Evening
+2026-04-29,1900-01-01 11:25:00,Queens,Clear,Dry,Minor,Distracted Driving,40.7357,-73.8772,11,Morning
+2026-05-03,1900-01-01 17:55:00,Bronx,Rain,Wet,Major,Following Too Closely,40.8506,-73.8769,17,Afternoon
+2026-05-06,1900-01-01 20:35:00,Brooklyn,Cloudy,Dry,Minor,Failure to Yield,40.6719,-73.9442,20,Evening
+2026-05-09,1900-01-01 08:05:00,Manhattan,Clear,Dry,Minor,Unsafe Speed,40.7614,-73.9776,8,Morning
+2026-05-12,1900-01-01 15:40:00,Queens,Rain,Wet,Major,Distracted Driving,40.7282,-73.7949,15,Afternoon
+2026-05-15,1900-01-01 18:25:00,Staten Island,Clear,Dry,Minor,Following Too Closely,40.5795,-74.1502,18,Evening
+2026-05-18,1900-01-01 23:10:00,Bronx,Fog,Wet,Major,Unsafe Speed,40.8296,-73.9242,23,Evening
+2026-05-21,1900-01-01 09:25:00,Brooklyn,Clear,Dry,Minor,Failure to Yield,40.6782,-73.9442,9,Morning
+2026-05-24,1900-01-01 14:55:00,Manhattan,Cloudy,Dry,Major,Distracted Driving,40.7411,-73.9897,14,Afternoon
+2026-05-27,1900-01-01 19:20:00,Queens,Rain,Wet,Minor,Following Too Closely,40.7587,-73.83,19,Evening
+2026-05-30,1900-01-01 21:50:00,Bronx,Clear,Dry,Major,Unsafe Speed,40.8448,-73.8648,21,Evening

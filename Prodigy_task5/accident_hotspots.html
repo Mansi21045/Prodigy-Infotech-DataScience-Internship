@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cda37293511ce5bce6c7b412014ad128 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_cda37293511ce5bce6c7b412014ad128" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_cda37293511ce5bce6c7b412014ad128 = L.map(
+                "map_cda37293511ce5bce6c7b412014ad128",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_efee3e7f1da457375b4c068f44b51b1f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_efee3e7f1da457375b4c068f44b51b1f.addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+            var circle_marker_93b9fc7fc75342006cb2888e9451c1b9 = L.circleMarker(
+                [40.758, -73.9855],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_2935fe8dcdb9239205beb704a7d9c9ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9aa88ac6958aa6aa1c14780db6f3cd2c = $(`<div id="html_9aa88ac6958aa6aa1c14780db6f3cd2c" style="width: 100.0%; height: 100.0%;">Manhattan - Minor</div>`)[0];
+                popup_2935fe8dcdb9239205beb704a7d9c9ec.setContent(html_9aa88ac6958aa6aa1c14780db6f3cd2c);
+            
+        
+
+        circle_marker_93b9fc7fc75342006cb2888e9451c1b9.bindPopup(popup_2935fe8dcdb9239205beb704a7d9c9ec)
+        ;
+
+        
+    
+    
+            var circle_marker_cb31625a03c228ce8a2a4c84f9579c5a = L.circleMarker(
+                [40.6782, -73.9442],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_a4ae8724ffd6b0fb78f7fd336b99059f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87173bae879d4fa54098aea69180a876 = $(`<div id="html_87173bae879d4fa54098aea69180a876" style="width: 100.0%; height: 100.0%;">Brooklyn - Major</div>`)[0];
+                popup_a4ae8724ffd6b0fb78f7fd336b99059f.setContent(html_87173bae879d4fa54098aea69180a876);
+            
+        
+
+        circle_marker_cb31625a03c228ce8a2a4c84f9579c5a.bindPopup(popup_a4ae8724ffd6b0fb78f7fd336b99059f)
+        ;
+
+        
+    
+    
+            var circle_marker_c29f4be347215e965704e80c9728452b = L.circleMarker(
+                [40.7282, -73.7949],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_a5b0bb7d28a71c1194e23b9cd7f9a455 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56adaffc3bd39bcf843e9eb17073c6b1 = $(`<div id="html_56adaffc3bd39bcf843e9eb17073c6b1" style="width: 100.0%; height: 100.0%;">Queens - Minor</div>`)[0];
+                popup_a5b0bb7d28a71c1194e23b9cd7f9a455.setContent(html_56adaffc3bd39bcf843e9eb17073c6b1);
+            
+        
+
+        circle_marker_c29f4be347215e965704e80c9728452b.bindPopup(popup_a5b0bb7d28a71c1194e23b9cd7f9a455)
+        ;
+
+        
+    
+    
+            var circle_marker_36dce3d1c5ca590c72a9c81ac24de7c2 = L.circleMarker(
+                [40.8448, -73.8648],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_a1480a14e8fff20ee94be93f781d35ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d28237ba232e84959563a4980e6a35d = $(`<div id="html_8d28237ba232e84959563a4980e6a35d" style="width: 100.0%; height: 100.0%;">Bronx - Major</div>`)[0];
+                popup_a1480a14e8fff20ee94be93f781d35ed.setContent(html_8d28237ba232e84959563a4980e6a35d);
+            
+        
+
+        circle_marker_36dce3d1c5ca590c72a9c81ac24de7c2.bindPopup(popup_a1480a14e8fff20ee94be93f781d35ed)
+        ;
+
+        
+    
+    
+            var circle_marker_7a6eaf26c402e5049efadb86fdf94b6c = L.circleMarker(
+                [40.6501, -73.9496],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_b8e58d67240fa3d82001671ef2e66f6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88aceb8a5d1f4ab6c89170b05a57f2c4 = $(`<div id="html_88aceb8a5d1f4ab6c89170b05a57f2c4" style="width: 100.0%; height: 100.0%;">Brooklyn - Major</div>`)[0];
+                popup_b8e58d67240fa3d82001671ef2e66f6d.setContent(html_88aceb8a5d1f4ab6c89170b05a57f2c4);
+            
+        
+
+        circle_marker_7a6eaf26c402e5049efadb86fdf94b6c.bindPopup(popup_b8e58d67240fa3d82001671ef2e66f6d)
+        ;
+
+        
+    
+    
+            var circle_marker_167cd71ced85fdd1afaacaab09f3efec = L.circleMarker(
+                [40.7306, -73.9866],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_c64d95471cc5a7ea4a22dd9f7e8acf19 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6be2fa1856239bb775439839a429a8cc = $(`<div id="html_6be2fa1856239bb775439839a429a8cc" style="width: 100.0%; height: 100.0%;">Manhattan - Minor</div>`)[0];
+                popup_c64d95471cc5a7ea4a22dd9f7e8acf19.setContent(html_6be2fa1856239bb775439839a429a8cc);
+            
+        
+
+        circle_marker_167cd71ced85fdd1afaacaab09f3efec.bindPopup(popup_c64d95471cc5a7ea4a22dd9f7e8acf19)
+        ;
+
+        
+    
+    
+            var circle_marker_87750078126f0968d98b8a3c3c0edee6 = L.circleMarker(
+                [40.7421, -73.7694],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_fe9d7f48d26532abcd4773c6612edc1a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a1faa43468cb0469b8cc3698ab55644 = $(`<div id="html_2a1faa43468cb0469b8cc3698ab55644" style="width: 100.0%; height: 100.0%;">Queens - Major</div>`)[0];
+                popup_fe9d7f48d26532abcd4773c6612edc1a.setContent(html_2a1faa43468cb0469b8cc3698ab55644);
+            
+        
+
+        circle_marker_87750078126f0968d98b8a3c3c0edee6.bindPopup(popup_fe9d7f48d26532abcd4773c6612edc1a)
+        ;
+
+        
+    
+    
+            var circle_marker_0a8665bed2b599331f8bd754019c8772 = L.circleMarker(
+                [40.5795, -74.1502],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_33ed393a89262356e6e799f72c457431 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4778b3454c10a18aef3f46da08eeab9 = $(`<div id="html_c4778b3454c10a18aef3f46da08eeab9" style="width: 100.0%; height: 100.0%;">Staten Island - Minor</div>`)[0];
+                popup_33ed393a89262356e6e799f72c457431.setContent(html_c4778b3454c10a18aef3f46da08eeab9);
+            
+        
+
+        circle_marker_0a8665bed2b599331f8bd754019c8772.bindPopup(popup_33ed393a89262356e6e799f72c457431)
+        ;
+
+        
+    
+    
+            var circle_marker_1705d2d709a6f31592f97e5d3b3d7797 = L.circleMarker(
+                [40.837, -73.8654],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_4d10a2d2abe0f1187f817f525d2b08af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_780c7182346beb2863472adf3ff54bbe = $(`<div id="html_780c7182346beb2863472adf3ff54bbe" style="width: 100.0%; height: 100.0%;">Bronx - Minor</div>`)[0];
+                popup_4d10a2d2abe0f1187f817f525d2b08af.setContent(html_780c7182346beb2863472adf3ff54bbe);
+            
+        
+
+        circle_marker_1705d2d709a6f31592f97e5d3b3d7797.bindPopup(popup_4d10a2d2abe0f1187f817f525d2b08af)
+        ;
+
+        
+    
+    
+            var circle_marker_cf23337dd63a2cb1da7479633c83a80f = L.circleMarker(
+                [40.6928, -73.9903],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_6a3e6754deab650aaad98ec83bafb391 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8371d13fea63faa8169047103b8b29ed = $(`<div id="html_8371d13fea63faa8169047103b8b29ed" style="width: 100.0%; height: 100.0%;">Brooklyn - Major</div>`)[0];
+                popup_6a3e6754deab650aaad98ec83bafb391.setContent(html_8371d13fea63faa8169047103b8b29ed);
+            
+        
+
+        circle_marker_cf23337dd63a2cb1da7479633c83a80f.bindPopup(popup_6a3e6754deab650aaad98ec83bafb391)
+        ;
+
+        
+    
+    
+            var circle_marker_d9fdbf2ce101005f5da46ed0c32f8f12 = L.circleMarker(
+                [40.7484, -73.9857],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_2c270700f9e26f990c5940c3517bbf3f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_778e42a4ecfba44e7bf4c1645fb6d832 = $(`<div id="html_778e42a4ecfba44e7bf4c1645fb6d832" style="width: 100.0%; height: 100.0%;">Manhattan - Minor</div>`)[0];
+                popup_2c270700f9e26f990c5940c3517bbf3f.setContent(html_778e42a4ecfba44e7bf4c1645fb6d832);
+            
+        
+
+        circle_marker_d9fdbf2ce101005f5da46ed0c32f8f12.bindPopup(popup_2c270700f9e26f990c5940c3517bbf3f)
+        ;
+
+        
+    
+    
+            var circle_marker_19c2eb29fbeeae6a41bd70e48b01ca24 = L.circleMarker(
+                [40.7135, -73.8283],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_871d5c41ab4b367b59f3253e4733420d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70b7dfb7cb1fea463f08f9110f3b29ef = $(`<div id="html_70b7dfb7cb1fea463f08f9110f3b29ef" style="width: 100.0%; height: 100.0%;">Queens - Minor</div>`)[0];
+                popup_871d5c41ab4b367b59f3253e4733420d.setContent(html_70b7dfb7cb1fea463f08f9110f3b29ef);
+            
+        
+
+        circle_marker_19c2eb29fbeeae6a41bd70e48b01ca24.bindPopup(popup_871d5c41ab4b367b59f3253e4733420d)
+        ;
+
+        
+    
+    
+            var circle_marker_be602ba66d6ca77d66678cc5adee6641 = L.circleMarker(
+                [40.816, -73.8974],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_200e1d7a9b37987d916c004c36a44c2c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f4b268aa39926ff5c369d047d149431 = $(`<div id="html_5f4b268aa39926ff5c369d047d149431" style="width: 100.0%; height: 100.0%;">Bronx - Major</div>`)[0];
+                popup_200e1d7a9b37987d916c004c36a44c2c.setContent(html_5f4b268aa39926ff5c369d047d149431);
+            
+        
+
+        circle_marker_be602ba66d6ca77d66678cc5adee6641.bindPopup(popup_200e1d7a9b37987d916c004c36a44c2c)
+        ;
+
+        
+    
+    
+            var circle_marker_5a9126dbf5a57ba68cb63472629eed37 = L.circleMarker(
+                [40.6719, -73.9442],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_1fdaa89a6ff23629114f1b32d2a555f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9ac85274576633d3c33b645d472192e = $(`<div id="html_d9ac85274576633d3c33b645d472192e" style="width: 100.0%; height: 100.0%;">Brooklyn - Minor</div>`)[0];
+                popup_1fdaa89a6ff23629114f1b32d2a555f9.setContent(html_d9ac85274576633d3c33b645d472192e);
+            
+        
+
+        circle_marker_5a9126dbf5a57ba68cb63472629eed37.bindPopup(popup_1fdaa89a6ff23629114f1b32d2a555f9)
+        ;
+
+        
+    
+    
+            var circle_marker_ac1d272fa0fd8b238658e73423b3c69a = L.circleMarker(
+                [40.7614, -73.9776],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_a8fb83a9ef8f3841a31971bfa8becb0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_655a08e2ffa8372f7a9f716261b10718 = $(`<div id="html_655a08e2ffa8372f7a9f716261b10718" style="width: 100.0%; height: 100.0%;">Manhattan - Major</div>`)[0];
+                popup_a8fb83a9ef8f3841a31971bfa8becb0b.setContent(html_655a08e2ffa8372f7a9f716261b10718);
+            
+        
+
+        circle_marker_ac1d272fa0fd8b238658e73423b3c69a.bindPopup(popup_a8fb83a9ef8f3841a31971bfa8becb0b)
+        ;
+
+        
+    
+    
+            var circle_marker_551b4204def1deb4f0c38a7f8ff5327c = L.circleMarker(
+                [40.7357, -73.8772],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_9ce5415a4c0c307cf57c3b227151226d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1835f83d119e23059eb17b280954d155 = $(`<div id="html_1835f83d119e23059eb17b280954d155" style="width: 100.0%; height: 100.0%;">Queens - Major</div>`)[0];
+                popup_9ce5415a4c0c307cf57c3b227151226d.setContent(html_1835f83d119e23059eb17b280954d155);
+            
+        
+
+        circle_marker_551b4204def1deb4f0c38a7f8ff5327c.bindPopup(popup_9ce5415a4c0c307cf57c3b227151226d)
+        ;
+
+        
+    
+    
+            var circle_marker_4081b438880e8b1fe6c7c87ec182f469 = L.circleMarker(
+                [40.6082, -74.1448],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_09af44d9f6e71d67b21eb3a0f857c152 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dadf685948ece47e7329ba54a214662e = $(`<div id="html_dadf685948ece47e7329ba54a214662e" style="width: 100.0%; height: 100.0%;">Staten Island - Minor</div>`)[0];
+                popup_09af44d9f6e71d67b21eb3a0f857c152.setContent(html_dadf685948ece47e7329ba54a214662e);
+            
+        
+
+        circle_marker_4081b438880e8b1fe6c7c87ec182f469.bindPopup(popup_09af44d9f6e71d67b21eb3a0f857c152)
+        ;
+
+        
+    
+    
+            var circle_marker_0b1174f9863b6f5ffaf0974c83610e1f = L.circleMarker(
+                [40.8506, -73.8769],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_813cbf4210f7cd2e8620ed442112b39a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0cd1e807542a915db72ce87b95e03f8 = $(`<div id="html_a0cd1e807542a915db72ce87b95e03f8" style="width: 100.0%; height: 100.0%;">Bronx - Minor</div>`)[0];
+                popup_813cbf4210f7cd2e8620ed442112b39a.setContent(html_a0cd1e807542a915db72ce87b95e03f8);
+            
+        
+
+        circle_marker_0b1174f9863b6f5ffaf0974c83610e1f.bindPopup(popup_813cbf4210f7cd2e8620ed442112b39a)
+        ;
+
+        
+    
+    
+            var circle_marker_029176a7b92f501834e08ada79a82999 = L.circleMarker(
+                [40.6506, -73.9496],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_a471258e6157522e2b170215e7bbb6d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d745c896ccf69a4ba328c1493012d75 = $(`<div id="html_0d745c896ccf69a4ba328c1493012d75" style="width: 100.0%; height: 100.0%;">Brooklyn - Major</div>`)[0];
+                popup_a471258e6157522e2b170215e7bbb6d3.setContent(html_0d745c896ccf69a4ba328c1493012d75);
+            
+        
+
+        circle_marker_029176a7b92f501834e08ada79a82999.bindPopup(popup_a471258e6157522e2b170215e7bbb6d3)
+        ;
+
+        
+    
+    
+            var circle_marker_595a690850d6b27b2926b418042acc25 = L.circleMarker(
+                [40.7411, -73.9897],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_55a428b22943d93e2b7d80759c8f1418 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71b8217daf4647179013078353f8708a = $(`<div id="html_71b8217daf4647179013078353f8708a" style="width: 100.0%; height: 100.0%;">Manhattan - Major</div>`)[0];
+                popup_55a428b22943d93e2b7d80759c8f1418.setContent(html_71b8217daf4647179013078353f8708a);
+            
+        
+
+        circle_marker_595a690850d6b27b2926b418042acc25.bindPopup(popup_55a428b22943d93e2b7d80759c8f1418)
+        ;
+
+        
+    
+    
+            var circle_marker_192e1de1d89e8400abb8f17054e6aa37 = L.circleMarker(
+                [40.7587, -73.83],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_4958a58a494a491e8008d0274251d44c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a8497be1241952373cd627ec2fae54d = $(`<div id="html_2a8497be1241952373cd627ec2fae54d" style="width: 100.0%; height: 100.0%;">Queens - Minor</div>`)[0];
+                popup_4958a58a494a491e8008d0274251d44c.setContent(html_2a8497be1241952373cd627ec2fae54d);
+            
+        
+
+        circle_marker_192e1de1d89e8400abb8f17054e6aa37.bindPopup(popup_4958a58a494a491e8008d0274251d44c)
+        ;
+
+        
+    
+    
+            var circle_marker_6c91aeca993a98b7c0d4127767290e8d = L.circleMarker(
+                [40.8296, -73.9242],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_ff46065d7a232aa6025b51c014bfe62b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c956f5dfe94eff33c82f39a22d84e78 = $(`<div id="html_6c956f5dfe94eff33c82f39a22d84e78" style="width: 100.0%; height: 100.0%;">Bronx - Minor</div>`)[0];
+                popup_ff46065d7a232aa6025b51c014bfe62b.setContent(html_6c956f5dfe94eff33c82f39a22d84e78);
+            
+        
+
+        circle_marker_6c91aeca993a98b7c0d4127767290e8d.bindPopup(popup_ff46065d7a232aa6025b51c014bfe62b)
+        ;
+
+        
+    
+    
+            var circle_marker_2ff6ce1c4e01f1e762b6894931d11132 = L.circleMarker(
+                [40.6782, -73.9442],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_8264aa15320a1538853297be4650fa92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca55c7249b52f642f134d51c0b6a8797 = $(`<div id="html_ca55c7249b52f642f134d51c0b6a8797" style="width: 100.0%; height: 100.0%;">Brooklyn - Major</div>`)[0];
+                popup_8264aa15320a1538853297be4650fa92.setContent(html_ca55c7249b52f642f134d51c0b6a8797);
+            
+        
+
+        circle_marker_2ff6ce1c4e01f1e762b6894931d11132.bindPopup(popup_8264aa15320a1538853297be4650fa92)
+        ;
+
+        
+    
+    
+            var circle_marker_1339c1d948233c69349c1d87a88adf87 = L.circleMarker(
+                [40.7527, -73.9772],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_c08a9d0102cb66ec5278e228bc7b76dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86f8675d12220e7b3e4cafb4ae1291d1 = $(`<div id="html_86f8675d12220e7b3e4cafb4ae1291d1" style="width: 100.0%; height: 100.0%;">Manhattan - Minor</div>`)[0];
+                popup_c08a9d0102cb66ec5278e228bc7b76dc.setContent(html_86f8675d12220e7b3e4cafb4ae1291d1);
+            
+        
+
+        circle_marker_1339c1d948233c69349c1d87a88adf87.bindPopup(popup_c08a9d0102cb66ec5278e228bc7b76dc)
+        ;
+
+        
+    
+    
+            var circle_marker_848a68374c9c713acded33542df07526 = L.circleMarker(
+                [40.7282, -73.7949],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_9eddd936461a93c13bc9929f48ad41d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f1b008b803d9b71599509d2ea1f4d53 = $(`<div id="html_6f1b008b803d9b71599509d2ea1f4d53" style="width: 100.0%; height: 100.0%;">Queens - Major</div>`)[0];
+                popup_9eddd936461a93c13bc9929f48ad41d1.setContent(html_6f1b008b803d9b71599509d2ea1f4d53);
+            
+        
+
+        circle_marker_848a68374c9c713acded33542df07526.bindPopup(popup_9eddd936461a93c13bc9929f48ad41d1)
+        ;
+
+        
+    
+    
+            var circle_marker_6db72e91008983189b2af3c8b047ab4c = L.circleMarker(
+                [40.5795, -74.1502],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_7e31c9688bc1f363f2d58d6fbcbfb6d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3898ccdeb656c67316ad95beb211279c = $(`<div id="html_3898ccdeb656c67316ad95beb211279c" style="width: 100.0%; height: 100.0%;">Staten Island - Minor</div>`)[0];
+                popup_7e31c9688bc1f363f2d58d6fbcbfb6d4.setContent(html_3898ccdeb656c67316ad95beb211279c);
+            
+        
+
+        circle_marker_6db72e91008983189b2af3c8b047ab4c.bindPopup(popup_7e31c9688bc1f363f2d58d6fbcbfb6d4)
+        ;
+
+        
+    
+    
+            var circle_marker_8b7a21c81ae9720d9d486ae1e1d5ff7b = L.circleMarker(
+                [40.8448, -73.8648],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_be4560d64926737352d28bd946b6b12a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c7b884c7bf968d2c4079436e47b5ec4 = $(`<div id="html_6c7b884c7bf968d2c4079436e47b5ec4" style="width: 100.0%; height: 100.0%;">Bronx - Minor</div>`)[0];
+                popup_be4560d64926737352d28bd946b6b12a.setContent(html_6c7b884c7bf968d2c4079436e47b5ec4);
+            
+        
+
+        circle_marker_8b7a21c81ae9720d9d486ae1e1d5ff7b.bindPopup(popup_be4560d64926737352d28bd946b6b12a)
+        ;
+
+        
+    
+    
+            var circle_marker_5f556a33198b5ce98f729b4299bac1f4 = L.circleMarker(
+                [40.6892, -73.9857],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_01e80ac3477cf583400a893a7a589ced = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1710515196c3ba52755c994819f302c = $(`<div id="html_d1710515196c3ba52755c994819f302c" style="width: 100.0%; height: 100.0%;">Brooklyn - Major</div>`)[0];
+                popup_01e80ac3477cf583400a893a7a589ced.setContent(html_d1710515196c3ba52755c994819f302c);
+            
+        
+
+        circle_marker_5f556a33198b5ce98f729b4299bac1f4.bindPopup(popup_01e80ac3477cf583400a893a7a589ced)
+        ;
+
+        
+    
+    
+            var circle_marker_9fe2c34f594a6b5f7d037912d6e71939 = L.circleMarker(
+                [40.7306, -73.9866],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_fd4bba45172d2cf7c97ec7741e1d9da7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c48913d5a00c0cb9a79dae40a1f3292c = $(`<div id="html_c48913d5a00c0cb9a79dae40a1f3292c" style="width: 100.0%; height: 100.0%;">Manhattan - Major</div>`)[0];
+                popup_fd4bba45172d2cf7c97ec7741e1d9da7.setContent(html_c48913d5a00c0cb9a79dae40a1f3292c);
+            
+        
+
+        circle_marker_9fe2c34f594a6b5f7d037912d6e71939.bindPopup(popup_fd4bba45172d2cf7c97ec7741e1d9da7)
+        ;
+
+        
+    
+    
+            var circle_marker_a49e4d1b111f716f58db66cf9c7a3d8b = L.circleMarker(
+                [40.7421, -73.7694],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_2ea8aaf28db38c1bf35558d466d953ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b87774c8e14c39eb5b4f186a45d55ca8 = $(`<div id="html_b87774c8e14c39eb5b4f186a45d55ca8" style="width: 100.0%; height: 100.0%;">Queens - Minor</div>`)[0];
+                popup_2ea8aaf28db38c1bf35558d466d953ed.setContent(html_b87774c8e14c39eb5b4f186a45d55ca8);
+            
+        
+
+        circle_marker_a49e4d1b111f716f58db66cf9c7a3d8b.bindPopup(popup_2ea8aaf28db38c1bf35558d466d953ed)
+        ;
+
+        
+    
+    
+            var circle_marker_95023b57c0309b4b77b9fdd8b4023109 = L.circleMarker(
+                [40.837, -73.8654],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_d93f74c596820950b9e7ac848f036a39 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bde5b5665156d8639eee521d7907433f = $(`<div id="html_bde5b5665156d8639eee521d7907433f" style="width: 100.0%; height: 100.0%;">Bronx - Major</div>`)[0];
+                popup_d93f74c596820950b9e7ac848f036a39.setContent(html_bde5b5665156d8639eee521d7907433f);
+            
+        
+
+        circle_marker_95023b57c0309b4b77b9fdd8b4023109.bindPopup(popup_d93f74c596820950b9e7ac848f036a39)
+        ;
+
+        
+    
+    
+            var circle_marker_71d5c9ef905a6f5aac131e51ae163c32 = L.circleMarker(
+                [40.6501, -73.9496],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_8e704a3cd043a9c7c57a84cc4f22d25c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c058f05e47dfffbce8ae167e7cac66c8 = $(`<div id="html_c058f05e47dfffbce8ae167e7cac66c8" style="width: 100.0%; height: 100.0%;">Brooklyn - Minor</div>`)[0];
+                popup_8e704a3cd043a9c7c57a84cc4f22d25c.setContent(html_c058f05e47dfffbce8ae167e7cac66c8);
+            
+        
+
+        circle_marker_71d5c9ef905a6f5aac131e51ae163c32.bindPopup(popup_8e704a3cd043a9c7c57a84cc4f22d25c)
+        ;
+
+        
+    
+    
+            var circle_marker_72d454ae666660ccb038f9f42fef8baf = L.circleMarker(
+                [40.758, -73.9855],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_2643e64e1c98cf688f1d90dfd77855a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f480fd88ed46da2b74f2b729ecbceb9a = $(`<div id="html_f480fd88ed46da2b74f2b729ecbceb9a" style="width: 100.0%; height: 100.0%;">Manhattan - Major</div>`)[0];
+                popup_2643e64e1c98cf688f1d90dfd77855a1.setContent(html_f480fd88ed46da2b74f2b729ecbceb9a);
+            
+        
+
+        circle_marker_72d454ae666660ccb038f9f42fef8baf.bindPopup(popup_2643e64e1c98cf688f1d90dfd77855a1)
+        ;
+
+        
+    
+    
+            var circle_marker_a485e92f332504edc3a0e4bc3af76bb2 = L.circleMarker(
+                [40.7135, -73.8283],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_357671c390d0ca329816dafdd814e886 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc1ab3f7ec6fa18d0a6d423ae9022205 = $(`<div id="html_dc1ab3f7ec6fa18d0a6d423ae9022205" style="width: 100.0%; height: 100.0%;">Queens - Minor</div>`)[0];
+                popup_357671c390d0ca329816dafdd814e886.setContent(html_dc1ab3f7ec6fa18d0a6d423ae9022205);
+            
+        
+
+        circle_marker_a485e92f332504edc3a0e4bc3af76bb2.bindPopup(popup_357671c390d0ca329816dafdd814e886)
+        ;
+
+        
+    
+    
+            var circle_marker_149a39fc30984abf1a9711604b9caa3d = L.circleMarker(
+                [40.6082, -74.1448],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_64b167cfcdc234fc9aacfa08f9adb506 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79c5157ed5be44d3ed49dec276d46312 = $(`<div id="html_79c5157ed5be44d3ed49dec276d46312" style="width: 100.0%; height: 100.0%;">Staten Island - Minor</div>`)[0];
+                popup_64b167cfcdc234fc9aacfa08f9adb506.setContent(html_79c5157ed5be44d3ed49dec276d46312);
+            
+        
+
+        circle_marker_149a39fc30984abf1a9711604b9caa3d.bindPopup(popup_64b167cfcdc234fc9aacfa08f9adb506)
+        ;
+
+        
+    
+    
+            var circle_marker_af6ade2beb258e9428419d2737f0ad21 = L.circleMarker(
+                [40.816, -73.8974],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_ab00b53946b6c17f238878c4c8cb7aaa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2025529dc48d0bf3a4185133be1e71f = $(`<div id="html_f2025529dc48d0bf3a4185133be1e71f" style="width: 100.0%; height: 100.0%;">Bronx - Major</div>`)[0];
+                popup_ab00b53946b6c17f238878c4c8cb7aaa.setContent(html_f2025529dc48d0bf3a4185133be1e71f);
+            
+        
+
+        circle_marker_af6ade2beb258e9428419d2737f0ad21.bindPopup(popup_ab00b53946b6c17f238878c4c8cb7aaa)
+        ;
+
+        
+    
+    
+            var circle_marker_b47d97c9335feea0712b5e72d7b8c311 = L.circleMarker(
+                [40.6928, -73.9903],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_c2de4c838174c8da888d34455498e0d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d58b01a85113580a7e92b7fef91dcb1c = $(`<div id="html_d58b01a85113580a7e92b7fef91dcb1c" style="width: 100.0%; height: 100.0%;">Brooklyn - Major</div>`)[0];
+                popup_c2de4c838174c8da888d34455498e0d7.setContent(html_d58b01a85113580a7e92b7fef91dcb1c);
+            
+        
+
+        circle_marker_b47d97c9335feea0712b5e72d7b8c311.bindPopup(popup_c2de4c838174c8da888d34455498e0d7)
+        ;
+
+        
+    
+    
+            var circle_marker_e34f9aedd9df03be769b0c6c27915ded = L.circleMarker(
+                [40.7484, -73.9857],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_045a0ddd1536d0851469906bdb577211 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9641968d452d4b34d55a70f2846d6044 = $(`<div id="html_9641968d452d4b34d55a70f2846d6044" style="width: 100.0%; height: 100.0%;">Manhattan - Minor</div>`)[0];
+                popup_045a0ddd1536d0851469906bdb577211.setContent(html_9641968d452d4b34d55a70f2846d6044);
+            
+        
+
+        circle_marker_e34f9aedd9df03be769b0c6c27915ded.bindPopup(popup_045a0ddd1536d0851469906bdb577211)
+        ;
+
+        
+    
+    
+            var circle_marker_cfcdfd1561a2dc465ae333151c6bb0ac = L.circleMarker(
+                [40.7357, -73.8772],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_cf76b53288d6d58cd2e4e6807ac01330 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cce2876db1a48e9a8d2a8235632661cd = $(`<div id="html_cce2876db1a48e9a8d2a8235632661cd" style="width: 100.0%; height: 100.0%;">Queens - Minor</div>`)[0];
+                popup_cf76b53288d6d58cd2e4e6807ac01330.setContent(html_cce2876db1a48e9a8d2a8235632661cd);
+            
+        
+
+        circle_marker_cfcdfd1561a2dc465ae333151c6bb0ac.bindPopup(popup_cf76b53288d6d58cd2e4e6807ac01330)
+        ;
+
+        
+    
+    
+            var circle_marker_8ab21c557734f9ff5dd83ff68f09ed4c = L.circleMarker(
+                [40.8506, -73.8769],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_8054e1057226e26b0dd41f11b0d49684 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_92c99d2740074857acb13f05f6a5c46b = $(`<div id="html_92c99d2740074857acb13f05f6a5c46b" style="width: 100.0%; height: 100.0%;">Bronx - Major</div>`)[0];
+                popup_8054e1057226e26b0dd41f11b0d49684.setContent(html_92c99d2740074857acb13f05f6a5c46b);
+            
+        
+
+        circle_marker_8ab21c557734f9ff5dd83ff68f09ed4c.bindPopup(popup_8054e1057226e26b0dd41f11b0d49684)
+        ;
+
+        
+    
+    
+            var circle_marker_1c5ecb8b4e9aadc08fd1aad2d15ab804 = L.circleMarker(
+                [40.6719, -73.9442],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_f8bbb5af83befbb2dff6e198e2b1f8a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_915b3d489fb84611c4710bfbce7d6e2b = $(`<div id="html_915b3d489fb84611c4710bfbce7d6e2b" style="width: 100.0%; height: 100.0%;">Brooklyn - Minor</div>`)[0];
+                popup_f8bbb5af83befbb2dff6e198e2b1f8a1.setContent(html_915b3d489fb84611c4710bfbce7d6e2b);
+            
+        
+
+        circle_marker_1c5ecb8b4e9aadc08fd1aad2d15ab804.bindPopup(popup_f8bbb5af83befbb2dff6e198e2b1f8a1)
+        ;
+
+        
+    
+    
+            var circle_marker_44d539de90de9299e87e93478f0d7e09 = L.circleMarker(
+                [40.7614, -73.9776],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_e57ddd7cf58874f3f9c41c5904e29e7d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3cd1bcc60e32ab49aa037db0cdfb990 = $(`<div id="html_c3cd1bcc60e32ab49aa037db0cdfb990" style="width: 100.0%; height: 100.0%;">Manhattan - Minor</div>`)[0];
+                popup_e57ddd7cf58874f3f9c41c5904e29e7d.setContent(html_c3cd1bcc60e32ab49aa037db0cdfb990);
+            
+        
+
+        circle_marker_44d539de90de9299e87e93478f0d7e09.bindPopup(popup_e57ddd7cf58874f3f9c41c5904e29e7d)
+        ;
+
+        
+    
+    
+            var circle_marker_e5ae1bba5fc3e734e29f55e92c3f3fdf = L.circleMarker(
+                [40.7282, -73.7949],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_06005b5d06f28f27407257802ef30d16 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_abf76cffc27b935eb2ff2db55eb249bb = $(`<div id="html_abf76cffc27b935eb2ff2db55eb249bb" style="width: 100.0%; height: 100.0%;">Queens - Major</div>`)[0];
+                popup_06005b5d06f28f27407257802ef30d16.setContent(html_abf76cffc27b935eb2ff2db55eb249bb);
+            
+        
+
+        circle_marker_e5ae1bba5fc3e734e29f55e92c3f3fdf.bindPopup(popup_06005b5d06f28f27407257802ef30d16)
+        ;
+
+        
+    
+    
+            var circle_marker_8fcb1ccc26ee97bd59cb40fa491e84d4 = L.circleMarker(
+                [40.5795, -74.1502],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_6dc59a68135d925340f5e3e86648e445 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f398d84aee08f3eabe56cb0757ae190 = $(`<div id="html_2f398d84aee08f3eabe56cb0757ae190" style="width: 100.0%; height: 100.0%;">Staten Island - Minor</div>`)[0];
+                popup_6dc59a68135d925340f5e3e86648e445.setContent(html_2f398d84aee08f3eabe56cb0757ae190);
+            
+        
+
+        circle_marker_8fcb1ccc26ee97bd59cb40fa491e84d4.bindPopup(popup_6dc59a68135d925340f5e3e86648e445)
+        ;
+
+        
+    
+    
+            var circle_marker_665174f36362f9f142860889e9b27603 = L.circleMarker(
+                [40.8296, -73.9242],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_5ee98a7a2e5db4dd232ad6128a03e1a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e08e7e6964888216a8ea84b086358aeb = $(`<div id="html_e08e7e6964888216a8ea84b086358aeb" style="width: 100.0%; height: 100.0%;">Bronx - Major</div>`)[0];
+                popup_5ee98a7a2e5db4dd232ad6128a03e1a5.setContent(html_e08e7e6964888216a8ea84b086358aeb);
+            
+        
+
+        circle_marker_665174f36362f9f142860889e9b27603.bindPopup(popup_5ee98a7a2e5db4dd232ad6128a03e1a5)
+        ;
+
+        
+    
+    
+            var circle_marker_5d7465969d5549811ebf3750bc4bd14c = L.circleMarker(
+                [40.6782, -73.9442],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_903d4b17de482ba3a408a385367d032c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb0585bf54ead2cea903848ea63b63f0 = $(`<div id="html_cb0585bf54ead2cea903848ea63b63f0" style="width: 100.0%; height: 100.0%;">Brooklyn - Minor</div>`)[0];
+                popup_903d4b17de482ba3a408a385367d032c.setContent(html_cb0585bf54ead2cea903848ea63b63f0);
+            
+        
+
+        circle_marker_5d7465969d5549811ebf3750bc4bd14c.bindPopup(popup_903d4b17de482ba3a408a385367d032c)
+        ;
+
+        
+    
+    
+            var circle_marker_6acd754c859335297770ac8d94be5d07 = L.circleMarker(
+                [40.7411, -73.9897],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_9469b1a2b20c4386cecab86eda73e911 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44fae568d0083b5f82725c56b59548c9 = $(`<div id="html_44fae568d0083b5f82725c56b59548c9" style="width: 100.0%; height: 100.0%;">Manhattan - Major</div>`)[0];
+                popup_9469b1a2b20c4386cecab86eda73e911.setContent(html_44fae568d0083b5f82725c56b59548c9);
+            
+        
+
+        circle_marker_6acd754c859335297770ac8d94be5d07.bindPopup(popup_9469b1a2b20c4386cecab86eda73e911)
+        ;
+
+        
+    
+    
+            var circle_marker_9d06da00a04608d321a014a4c5c5457a = L.circleMarker(
+                [40.7587, -73.83],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_617c64c49a75658a278de7c41f3448e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_265b6ab220f5aca93dbce5fffb5eba12 = $(`<div id="html_265b6ab220f5aca93dbce5fffb5eba12" style="width: 100.0%; height: 100.0%;">Queens - Minor</div>`)[0];
+                popup_617c64c49a75658a278de7c41f3448e7.setContent(html_265b6ab220f5aca93dbce5fffb5eba12);
+            
+        
+
+        circle_marker_9d06da00a04608d321a014a4c5c5457a.bindPopup(popup_617c64c49a75658a278de7c41f3448e7)
+        ;
+
+        
+    
+    
+            var circle_marker_e3320776d7256bfb1b0f306b58d06d29 = L.circleMarker(
+                [40.8448, -73.8648],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cda37293511ce5bce6c7b412014ad128);
+        
+    
+        var popup_0c21b6b77f1357712828f7f78d55a445 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd288175abf07c07ec4bc18d7f4043cb = $(`<div id="html_bd288175abf07c07ec4bc18d7f4043cb" style="width: 100.0%; height: 100.0%;">Bronx - Major</div>`)[0];
+                popup_0c21b6b77f1357712828f7f78d55a445.setContent(html_bd288175abf07c07ec4bc18d7f4043cb);
+            
+        
+
+        circle_marker_e3320776d7256bfb1b0f306b58d06d29.bindPopup(popup_0c21b6b77f1357712828f7f78d55a445)
+        ;
+
+        
+    
+</script>
+</html>

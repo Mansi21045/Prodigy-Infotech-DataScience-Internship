@@ -1,0 +1,16 @@
+TASK 5 - TRAFFIC ACCIDENT DATA ANALYSIS
+
+Records analyzed: 49
+
+Most common time period: Evening
+Most common weather: Clear
+Most common road condition: Dry
+Most common severity: Minor
+Most common borough: Manhattan
+Most common contributing factor: Unsafe Speed
+
+The analysis examines traffic accidents by time, weather, road condition,
+severity, borough, and contributing factors. An interactive map is also
+provided to visualize accident locations.
+
+Note: This is a small educational sample, not official NYC statistics.
